@@ -1,10 +1,10 @@
 
 Quando('inserir os dados de um novo produto {string}, {string}, {string}, {string}') do |nome, preco, descricao, quantidade|
     @login_page.new_product(
-        UserData.get(nome),
-        UserData.get(preco),
-        UserData.get(descricao),
-        UserData.get(quantidade)
+        BackEnd.get(nome),
+        BackEnd.get(preco),
+        BackEnd.get(descricao),
+        BackEnd.get(quantidade)
     )
   end
   

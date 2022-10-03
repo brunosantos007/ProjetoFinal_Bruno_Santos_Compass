@@ -1,9 +1,9 @@
 
 Quando('inserir os dados de um novo usuário {string}, {string}, {string}') do |nome, email, senha|
     @login_page.new_user(
-        UserData.get(nome),
-        UserData.get(email),
-        UserData.get(senha)
+        BackEnd.get(nome),
+        BackEnd.get(email),
+        BackEnd.get(senha)
     )
   end
   

@@ -5,9 +5,9 @@ Dado('que esteja na tela de Cadastro') do
 
 Quando('inserir os dados válidos {string}, {string}, {string}') do |nome, email, senha|
   @cadastro_page.cadastrar_adm(
-    UserData.get(nome),
-    UserData.get(email),
-    UserData.get(senha)
+    BackEnd.get(nome),
+    BackEnd.get(email),
+    BackEnd.get(senha)
   )
 end
   
@@ -17,9 +17,9 @@ end
 
 Quando('inserir os dados inválidos {string}, {string}, {string}') do |nome, email, senha|
   @cadastro_page.cadastrar_adm(
-    UserData.get(nome),
-    UserData.get(email),
-    UserData.get(senha)
+    BackEnd.get(nome),
+    BackEnd.get(email),
+    BackEnd.get(senha)
   )
 end
 
@@ -29,9 +29,9 @@ end
 
 Quando('inserir os dados {string}, {string}, {string}') do |nome, email, senha|
   @cadastro_page.cadastro_default(
-    UserData.get(nome),
-    UserData.get(email),
-    UserData.get(senha)
+    BackEnd.get(nome),
+    BackEnd.get(email),
+    BackEnd.get(senha)
   )
 end
 

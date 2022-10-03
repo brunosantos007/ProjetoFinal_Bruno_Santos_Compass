@@ -1,6 +1,9 @@
 # Introdução
-### Nome do Projeto: Automação web com Ruby e Cucumber
-#### Trabalho realizado de testes de automação no site <a href="https://front.serverest.dev/login">Serverest</a> 
+### Nome do Projeto: Automação web com Ruby, Cucumber e SitePrism
+<p>
+Trabalho realizado de testes de automação no site <a href="https://front.serverest.dev/login">Serverest</a>.
+Com o intuito de testarmos a maioria das funcionalidades do sistema, desde o seu cadastro com Administrador e Default, até a Lista de Compras, verificando e testando sempre sua funcionalidade completa.
+</p>
 
 # Pré Requisitos para rodar a aplicação dos testes:
 ### Passo 1: Softwares
@@ -25,7 +28,6 @@
   <li>Selenium-Webdriver: https://chromedriver.chromium.org/downloads</li>
   <li>Rspec: https://rubygems.org/gems/rspec</li>
   <li>Pry: https://rubygems.org/gems/pry?locale=es</li>
-  <li>Json: https://rubygems.org/gems/json</li>
 </ul>
 
 # Processo de execução do teste
@@ -43,12 +45,28 @@
 <ul>
   <li>Abra o CMDER</li>
   <li>Com o CMDER devidamente iniciado, digite cd e o caminho que esta a pasta para pode realizar os testes</li>
-  <li>Com a pasta selecionada, execute o comando : bundle install, para instalarmos as gemas na devida pasta.</li>
+  <li>Com a pasta selecionada, execute o comando abaixo para instalarmos as gemas na devida pasta:</li>
+  <strong> 
+  <code>
+  Bundle Install
+  </code>
+  </strong>
   <li>Dentro do caminho selecionado, digite o código para instalarmos as pastas: <strong>Features</strong>, <strong>Step_definitions</strong>, <strong>Support/Env.rb</strong> :</li>
-  <blockquote>
+  <code>
 <strong>Cucumber --init</strong>
-  </blockquote>
-  <li>Execute o código seguinte dentro do CMDER: bundle exec cucumber -p default -t(a partir disto, adicionando a tag da FEATURE)/li>
+  </code>
+  <li>Este será o código para realizarmos testes a partir de uma tag de Cenário <strong>(Caso houver uma tag)</strong>:</li>
+  <strong> 
+  <code>
+  Bundle exec cucumber -p default -t(a partir disto, adicionando a tag da FEATURE, caso tenha uma tag no Cenário) 
+  </code>
+  </strong>
+  <li>Ou, executar o código inteiro, rodando com a linha de código:</li>
+  <strong>
+  <code>
+  Cucumber
+  </code>
+  </strong>
 </ul>
 
 # Tecnologias utilizadas:
@@ -57,16 +75,16 @@
   <li>VS Code</li>
   <li>Git</li>
   <li>CMD</li>
+  <li>Github</li>
 </ul>
 
 # Referências utilizadas:
 <ul>
-  <li>https://front.serverest.dev/login</li>
-  <li>https://blog.da2k.com.br/2015/02/08/aprenda-markdown/</li>
+  <li>https://github.com/site-prism/site_prism</li>
+  <li>https://nandovieira.com.br/openstruct-no-ruby-dois-ponto-zero#:~:text=A%20classe%20OpenStruct%20permite%20criar,ir%C3%A1%20gerar%20um%20atributo%20equivalente.</li>
+  <li>https://www.youtube.com/watch?v=nh-tU29Tm8s&ab_channel=Iterasys</li>
+  <li>https://github.com/ServeRest/ServeRest</li>
   <li>https://medium.com/cwi-software/automatizando-testes-de-aplica%C3%A7%C3%B5es-web-com-capybara-e-selenium-webdriver-8e630c7f6f03</li>
-  <li>https://blog.rocketseat.com.br/como-fazer-um-bom-readme/</li>
-  <li>https://stackoverflow.com/questions/8297624/how-to-check-a-checkbox-in-capybara</li>
-  <li>https://rubydoc.info/github/teamcapybara/capybara/master/Capybara/Node/Actions</li>
 </ul>
 
 # Autor

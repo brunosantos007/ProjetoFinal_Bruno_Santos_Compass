@@ -5,8 +5,8 @@ Dado('que esteja na página de login') do
   
   Quando('inserir os dados válidos {string} e {string}') do |email, senha|
     @login_page.login_adm(
-      UserData.get(email),
-      UserData.get(senha)
+      BackEnd.get(email),
+      BackEnd.get(senha)
     )
   end
   
@@ -16,8 +16,8 @@ Dado('que esteja na página de login') do
 
   Quando('inserir os dados inválidos {string} e {string}') do |email, senha|
     @login_page.login_adm(
-      UserData.get(email),
-      UserData.get(senha)
+      BackEnd.get(email),
+      BackEnd.get(senha)
     )
   end
   
