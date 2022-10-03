@@ -59,10 +59,11 @@ A lista a seguir identifica os itens que foram identificados como alvos priorit√
 </ul>
 
 <strong>Cadastro de Produtos sendo Administrador:</strong>
-
+<ul>
 <li>Examinar a Funcionalidade do bot√£o Cadastrar;</li>
 <li>Examinar se realmente os dados do produto foram adicionados a seus respectivos campos;</li>
 <li>Examinar se o produto foi cadastrado.</li>
+</ul>
 
 <strong>Pesquisa de Produto/Home:</strong>
 <ul>
