@@ -37,7 +37,6 @@ Login;
 A lista a seguir identifica os itens que foram identificados como alvos prioritários para o teste. Essa lista representa o que será testado.
 
 <strong>Teste da tela de cadastro:</strong>
-
 <ul>
 <li>Verificar se os campos: Nome, Email e Senha estão vazios;</li>
 <li>Verificar se o e-mail correspondente é um formato de um email;</li>
@@ -46,25 +45,10 @@ A lista a seguir identifica os itens que foram identificados como alvos priorit�
 </ul>
 
 <strong>Teste da tela de Login:</strong>
-
 <ul>
 <li>Verificar se os campos: Email e Senha estão vazios;</li>
 <li>Verificar se o e-mail correspondente existe;</li>
 <li>Verificar se a senha correspondente existe.</li>
-</ul>
-
-<strong>Pesquisa de Produto/Home:</strong>
-
-<ul>
-<li>Exibir os produtos;</li>
-<li>Examinar a Funcionalidade da Barra de Pesquisa;</li>
-<li>Examinar a Funcionalidade do Botão Pesquisar;</li>
-</ul>
-
-<strong>Adicionar um Produto a lista:</strong>
-<ul>
-<li>Examinar a Funcionalidade do botão Adicionar a lista;</li>
-<li>Examinar se realmente o produto foi adicionado a Lista de Compras conforme o esperado;</li>
 </ul>
 
 <strong>Cadastro de Usuários sendo Administrador:</strong>
@@ -80,6 +64,20 @@ A lista a seguir identifica os itens que foram identificados como alvos priorit�
 <li>Examinar se realmente os dados do produto foram adicionados a seus respectivos campos;</li>
 <li>Examinar se o produto foi cadastrado.</li>
 <hr> 
+
+<strong>Pesquisa de Produto/Home:</strong>
+<ul>
+<li>Exibir os produtos;</li>
+<li>Examinar a Funcionalidade da Barra de Pesquisa;</li>
+<li>Examinar a Funcionalidade do Botão Pesquisar;</li>
+</ul>
+
+<strong>Adicionar um Produto a lista:</strong>
+<ul>
+<li>Examinar a Funcionalidade do botão Adicionar a lista;</li>
+<li>Examinar se realmente o produto foi adicionado a Lista de Compras conforme o esperado;</li>
+</ul>
+
 
 ## <strong>4)	Estratégia dos Testes:</strong>
 

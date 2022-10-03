@@ -1,5 +1,4 @@
 #language: pt
-# teste@teste.com.br
 
 Funcionalidade: Logar
     Como usuário do ServeRest
