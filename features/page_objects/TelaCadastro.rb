@@ -27,7 +27,9 @@ module Pages
          input_senha.click
          input_senha.set senha
          btn_cadastrar.click
+
       end
+
    end
 end
 

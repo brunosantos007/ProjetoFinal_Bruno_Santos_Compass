@@ -4,10 +4,7 @@ Dado('que esteja na página de login') do
   end
   
   Quando('inserir os dados válidos {string} e {string}') do |email, senha|
-    @login_page.login_adm(
-      BackEnd.get(email),
-      BackEnd.get(senha)
-    )
+    @login_page.login_adm(BackEnd.get(email), BackEnd.get(senha))
   end
   
   Então('o usuário deverá ser logado') do
@@ -15,10 +12,7 @@ Dado('que esteja na página de login') do
   end
 
   Quando('inserir os dados inválidos {string} e {string}') do |email, senha|
-    @login_page.login_adm(
-      BackEnd.get(email),
-      BackEnd.get(senha)
-    )
+    @login_page.login_adm(BackEnd.get(email), BackEnd.get(senha))
   end
   
   Então('o usuário deverá receber uma {string}') do |string|

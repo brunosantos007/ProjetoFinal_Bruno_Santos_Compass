@@ -92,4 +92,5 @@ Com o intuito de testarmos a maioria das funcionalidades do sistema, desde o seu
 
 # Agradecimentos:
 <p>Willian Soares da Silva</p>
-<p> Christian Oliveira da Silva</p>
+<p>Christian Oliveira da Silva</p>
+<p>Eliane da Silva Freitas</p>

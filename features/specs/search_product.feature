@@ -17,3 +17,13 @@ Cenário: Pesquisa de produtos
     Exemplos:
     | email              | senha           | product                 | sucess         |
     | "email_default"    | "senha_default" |  "nome_produto"         | "nome_produto" |
+
+@search_product_error
+Cenário: Pesquisa de produto inválido
+    Quando já estiver logado com <email> e <senha>
+    E pesquisar por um produto inválido <product>
+    Então deverá ser exibida uma mensagem <msg_error>
+
+    Exemplos:
+    | email              | senha           | product            | msg_error                       |
+    | "email_default"    | "senha_default" |  "invalid_product" | "Nenhum produto foi encontrado" |

@@ -4,7 +4,8 @@ Dado('que esteja logado') do
   end
   
   Quando('inserir um produto na Lista de Compras {string}') do |product|
-    @login_page.add_product_list(BackEnd.get(product))
+    @TelaProduct_List = Pages::TelaProduct_List.new
+    @TelaProduct_List.add_product_list(BackEnd.get(product))
   end
   
   Então('deverá exibir a lista') do

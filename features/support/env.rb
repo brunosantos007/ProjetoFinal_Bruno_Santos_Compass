@@ -5,7 +5,6 @@ require "site_prism"
 require "selenium-webdriver"
 require "rspec"
 require "pry"
-require "faker"
 require "json"
 
 ENVIRONMENT = ENV["ENVIRONMENT"]
